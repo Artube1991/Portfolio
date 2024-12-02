@@ -37,7 +37,7 @@ body {
 
 .article {
     margin: 2%;
-    justify-content: center;
+    justify-self: center;
     max-width: 1100px;
 }
 
@@ -219,6 +219,16 @@ body {
     max-width: 100%;
     max-height: auto;
     overflow-x: hidden;
+}
+
+.icon-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.icon-box > p {
+  margin: 5%;
 }
 
 .article {
